@@ -7,6 +7,6 @@ int main()
     DigitalOut LD1(LED1);   //Leds conectados a puerto A LD1 es PA5
 
     while (true) {
-        LD1 = B1_USER;
+        LD1 = !B1_USER;
     }
 }
